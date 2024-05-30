@@ -45,17 +45,15 @@
 
 // Q. How can you sort an array of objects first by the address property in ascending order and then by the name property (also in ascending order) if the address values are equal?
 
-const students = [
-    { name: "Alex", address:"ktm" },
-    { name: "Sam", address:"btm" },
-    { name: "Eagle", address:"pkr" },
-    { name: "Devlin", address:"bdp" },
-  ];
+// const students = [
+//     { name: "Alex", address:"ktm" },
+//     { name: "Sam", address:"btm" },
+//     { name: "Eagle", address:"pkr" },
+//     { name: "Devlin", address:"bdp" },
+//   ];
 
-students.sort((firstItem, secondItem) => firstItem.address.localeCompare(secondItem.address));
-console.log(students);
-
-
+// students.sort((firstItem, secondItem) => firstItem.address.localeCompare(secondItem.address));
+// console.log(students);
 
 // students.sort((firstItem, secondItem) => firstItem.name.localeCompare(secondItem.name));
 // console.log(students);
@@ -71,13 +69,42 @@ console.log(students);
 //     });
 // }
 // const students = [
-//     { name: "Alex", address: "ktm" },
-//     { name: "Sam", address: "btm" },
-//     { name: "Eagle", address: "pkr" },
-//     { name: "Devlin", address: "btm" },
+//     { name: "Hari", address: "ktm" },
+//     { name: "Sita", address: "btm" },
+//     { name: "Ram", address: "pkr" },
+//     { name: "Kamala", address: "btm" },
 // ];
 // sortStudents(students);
 // console.log(students);
+
+// let sum = (a, b) => a + b;
+
+// function checkArguments() {
+//   console.log(arguments);
+// }
+// checkArguments(1, 2, 3);
+
+// let checkArguments = ()=> {
+//   console.log(arguments);
+// };
+// checkArguments(1, 2, 3);
+
+// let test
+// function test(a){
+//   this.value = a;
+// }
+
+// const funcOne = (a) => {
+//   this.value = a;
+// }
+
+// // console.log(new funcOne(2))
+//  console.log(test.prototype);
+//  console.log(funcOne.prototype);
+
+
+
+
   
 
 
